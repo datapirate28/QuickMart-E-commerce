@@ -141,3 +141,27 @@
     margin-top: 1rem;
     color: #1f1e1e;
 }
+
+
+
+/* ------Header------ */
+
+.header-container{
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-filter{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+
+.header-filter a {
+    color: var(--colo-dark-1);
+}
