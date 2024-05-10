@@ -165,3 +165,138 @@
 .header-filter a {
     color: var(--colo-dark-1);
 }
+
+
+/* Catagory Showcase */
+
+.catagory-showcase{
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.products-catagory{
+    color: var(--colo-primary);
+    border-left: 1.5rem solid var(--colo-primary);
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.products-catagory-p{
+    font-size: 1.3rem;
+}
+
+.catagory-header{
+    font-size: 2.2rem;
+}
+
+
+/* Cards */
+
+.catagory-showcase{
+    width: 100%;
+}
+
+.cards{
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    padding: 0 2rem;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1{
+    /* height: 42  rem; */
+    width: 24.5rem;
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+.card-top img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.8rem;
+}
+
+.card-badge{
+    background-color: var(--colo-primary);
+    color: var(--colo-white-2);
+    padding: 0.3rem 0.7rem;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    position: absolute;
+    left: 1.5rem;
+    top: 1.2rem;
+}
+
+.top-icons{
+    position: absolute;
+    top: 1.2rem;
+    left: 16.2rem;
+    font-size: 1.1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.card-heart, .card-eye{
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 50%;
+    margin-left: 0.2rem;
+    transition: 0.2s;
+}
+
+.card-heart:hover{
+    scale: 1.2;
+}
+
+.card-eye:hover{
+    scale: 1.2;
+}
+
+.product-description{
+    font-size: 1.6rem;
+    font-weight: 650;
+    margin-top: 1rem;
+}
+
+.price{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--colo-primary);
+    margin-top: 1rem;
+}
+
+.ratings{
+    margin-top: 1rem;
+    color: rgb(219, 140, 4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.stars{
+    font-size: 1.5rem;
+}
+
+.rating-no{
+    margin-right: 8rem;
+    color: black;
+    font-size: 2rem;    
+}
+
+.card1 button {
+    margin-top: 2rem;
+    padding: 0.8rem 3rem;
+    background-color: var(--colo-primary);
+    color: var(--colo-white-2);
+    border: none;
+    border-radius: 0.8rem;
+    transition: 0.1s;
+}
+
+.card1 button:hover{
+    scale: 1.03;
+}
