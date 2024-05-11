@@ -74,6 +74,10 @@
     width: 100%;
     height: 8rem;
     border-bottom: 1px solid var(--colo-dark-2);
+    position: sticky;
+    top: 0rem;
+    background-color: var(--colo-white-2);
+    z-index: 100;
 }
 
 .nav-container{
@@ -116,7 +120,7 @@
 .nav-form{
     display: flex;
     padding: 0.8rem;
-    background-color: var(--colo-white-2);
+    background-color: var(--colo-white-1);
     align-items: center;
     border-radius: 0.5rem;
 }
@@ -203,6 +207,7 @@
     border: none;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .card1{
@@ -210,6 +215,7 @@
     width: 24.5rem;
     /* border: 1px solid black; */
     position: relative;
+    margin-bottom: 3rem;
 }
 
 .card-top img{
@@ -299,4 +305,275 @@
 
 .card1 button:hover{
     scale: 1.03;
+}
+
+/* .btn{
+    margin: 0 auto;
+    margin-top: 8rem;
+    background-color: var(--colo-primary);
+    color: var(--colo-white-2);
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 0.8rem;
+} */
+
+.bottom-btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.bottom-btn1{
+    margin-bottom: 5rem;
+    background-color: var(--colo-primary);
+    color: var(--colo-white-2);
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    border-radius: 0.8rem;
+}
+
+
+/* Browse */
+
+.browse-cards{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.b-card{
+    border-radius: 0.5rem;
+    width: 17rem;
+    height: 12rem;
+    border: 1px solid rgba(145, 145, 145, 0.451);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    padding: 5rem;
+    gap: 0.2rem;
+}
+
+.b-card img{
+    width: 3.5rem;
+}
+
+.b-card p{
+    font-size: 1.6rem;
+}
+
+.b-card:hover{
+    background-color: var(--colo-primary);
+}
+
+
+/* Merch Adver */
+
+.merch-wrapper{
+    background-color: var(--colo-dark-1);
+    color: var(--colo-white-2);
+    padding: 8rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;
+    gap: 1rem;
+    margin-top: 3.5rem;
+}
+
+.merch-img img{
+    width: 100%;
+}
+
+.merch-text{
+    /* margin-right: 20rem; */
+    width: 60%;
+}
+
+.m-text-p{
+    font-size: 1.6rem;
+    color: var(--color-green);
+    padding: 1rem 0;
+}
+
+.m-text-heading{
+    font-size: 4.3rem;
+    font-weight: 700;
+    padding-bottom: 4rem;
+}
+
+.merch-btn{
+    background-color: var(--color-green);
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    border-radius: 0.8rem;
+}
+
+
+/* Our Products */
+.our-products{
+    padding: 0 0;
+}
+
+/* Gallery */
+
+.gallery-wrapper{
+    margin-top: 4rem;
+}
+.gallery-items{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(8, 4vw);
+    grid-gap: 1.5rem;
+}
+
+.gallery-items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.8rem;
+}
+
+
+    .gallery-item-1 {
+        grid-column: 1 / span 3;
+        grid-row: 1 / span 7;
+        /* grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 8; */
+    }
+    .gallery-item-2 {
+        grid-column-start: 4;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+    .gallery-item-3 {
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 4;
+        grid-row-end: 8;
+    }
+    .gallery-item-4 {
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 4;
+        grid-row-end: 8;
+    }
+
+.gallery-item-1, .gallery-item-2, .gallery-item-3, .gallery-item-4{
+    position: relative;
+}
+
+.gallery-content{
+    position: absolute;
+    bottom: 2rem;
+    left: 0rem;
+    bottom: 0;
+    z-index: 9;
+    width: 70%;
+    color: var(--colo-white-2);
+    padding: 2rem;
+}
+
+.g-heading{
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.gallery-p{
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+}
+
+.gallery-link{
+    font-size: 1.6rem;
+    color: var(--colo-white-2);
+    text-decoration: underline;
+}
+
+.gallery-content{
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(240,240,240,0) 0%, rgba(0,0,0,10) 100%);
+width: 100%;
+
+border-radius: 0.8rem;
+}
+
+/* Sub Footer */
+
+.sub-options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10rem;
+    flex-wrap: wrap;
+}
+
+.sub1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+.sub1 img{
+    width: 30%;
+}
+
+.sub1-heading{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 1rem 0;
+    margin-top: 0.8rem;
+}
+
+
+.sub1-p{
+    font-size: 1.6rem;
+}
+
+/* Footer */
+
+.footer-items{
+    padding-top: 5rem;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+
+.f-1{
+    padding-left: 10rem;
+}
+
+.f-heading{
+    font-size: 3.2rem;
+    padding-bottom: 1.5rem;
+}
+
+.f-1, .f-2 p{
+    font-size: 1.5rem;
+  
+    text-align: justify;
+}
+.f-1 p{
+    width: 20rem;
+}
+
+
+.f-2 .f-heading{
+    font-size: 1.8rem;
+}
+
+.f-2 p{
+    line-height: 2.5rem;
 }
