@@ -628,6 +628,7 @@ border-radius: 0.8rem;
     line-height: 3;
     outline: none;
     margin: 1rem 0;
+    font-size: 1.5rem;
 }
 
 .login-btn{
