@@ -585,6 +585,76 @@ border-radius: 0.8rem;
 /* Login Page Styles */
 
 
+.login-items{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* flex-wrap: wrap; */
+    height: 100vh;
+    margin: 10rem 0;
+}
+
+.login-items img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login-form{
+    width: 50%;
+}
+
+.login-form{
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.login-heading{
+    font-size: 3.2rem;
+}
+
+.login-p{
+    font-size: 1.6rem;
+    margin: 2rem 0;
+}
+
+.login-form-items input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    line-height: 3;
+    outline: none;
+    margin: 1rem 0;
+}
+
+.login-btn{
+    width: 100%;
+    margin-top: 3rem;
+    background-color: var(--colo-primary);
+    color: whitesmoke;
+    padding: 1rem 0;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+/* Login Page Media Queries */
+
+@media (max-width: 800px){
+
+
+    .login-form{
+        width: 100%;
+    }
+
+    .login-items img{
+        display: none;
+    }
+}
+
+
 /* Home Page Media Queries */
 
 
