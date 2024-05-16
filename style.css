@@ -18,6 +18,7 @@
 
   html{
     font-size: 10px;
+    scroll-behavior: smooth; 
   }
 
   body{
@@ -37,6 +38,30 @@
     margin: 0 auto;
     padding: 0 1rem;
   }
+
+
+
+
+/* Navigater */
+
+.navigater{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+.navigater{
+    background-color: var(--colo-primary);
+    color: var(--colo-white-2);
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
+
+.navigater a {
+    color: var(--colo-white-2);
+}
 
   /*------- Top-Disclaimer ------ */
 
